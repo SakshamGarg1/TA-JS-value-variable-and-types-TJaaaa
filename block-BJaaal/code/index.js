@@ -9,6 +9,7 @@ let firstName = "Arya";
 let lastName = "Stark";
 
 /* Do the following using `+` operator
+
   - Alert message saying `I am [username] and my bio is [bio]`. Replace square brackets with the value of variable.
   - Alert the message `I'm Arya Stark of Winterfell` using the variable name firstName and lastName.
 */
@@ -34,3 +35,4 @@ const taxPercent = 10;
   `
   - Above message should be in two lines
 */
+fc
