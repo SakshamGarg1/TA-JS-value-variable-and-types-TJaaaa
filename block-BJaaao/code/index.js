@@ -18,7 +18,12 @@ alert(num1+num2);
 - Alert `The sum of [num1] and [num2] is [num1 + num1]`
 */
 let language="JavaScript";
-alert(I am learning [language]);
+alert("I am learning ${language}");
+alert("The value of num1 is ${num1} and the value of num2 is ${num2}");
+alert (`The sum of [num1] and [num2] is ${num1 + num1}`)
+
+
+
 
 
 
@@ -37,6 +42,8 @@ alert(I am learning [language]);
     Adult: [isAdult]
     Profession: [userProfession]` (it should be in three different lines)
 */
+let userName=prompt(" ");
+
 
 /*
 . Addition using prompt
