@@ -6,6 +6,7 @@
 
 // Using `console.log` log all the evan values from 1 to 10.
 
+
 // Using `console.log` log all the od values from 1 to 10.
 
 // Calculate the sum of all numbers from 1 to 10.
