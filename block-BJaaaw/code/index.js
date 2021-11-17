@@ -15,11 +15,12 @@ else{alert( 'no is odd');
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
 let numA=prompt('enter a number');
 let numA=prompt('enter a number');
-if(numA>numB){alert(${numA} is greater)}
-else(numB>numA){alert(${numB} is greater)}
+if(numA>numB){alert'(${numA} is greater)'}
+else(numB>numA){alert'(${numB} is greater)'}
 
 
 // 3. Convert the above code using`?` terniary operator
+numA > numB ? alert('${numA}'is greater'): alert('${numB}is greater')
 
 /*
 4. Write a program that asks the user for the house name and check the following conditions:
