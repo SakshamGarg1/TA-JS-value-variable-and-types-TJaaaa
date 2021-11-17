@@ -29,7 +29,13 @@ numA > numB ? alert('${numA}'is greater'): alert('${numB}is greater')
   - `if` house name is "lannister" then print the message " A lannister always pays his debt"
   - `else` print the message " All men must die"
 */
-
+let houseName = prompt("Enter a name")
+if(houseName==="stark"){alert("whiter is coming");
+}
+elseif(houseName==="lannister"){
+alert("A lannister always pays his debt");
+}
+else{alert(""All men must die);}
 // 5. Convert the above code using`?` terniary operator
 
 // Switch
