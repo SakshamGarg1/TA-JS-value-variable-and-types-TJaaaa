@@ -35,21 +35,60 @@ if(houseName==="stark"){alert("whiter is coming");
 elseif(houseName==="lannister"){
 alert("A lannister always pays his debt");
 }
-else{alert(""All men must die);}
+else{alert("All men must die");}
 // 5. Convert the above code using`?` terniary operator
+houseName === "stark"? alert ('Winter is comming'): houseName === "lanister"? alert ('All men must die'): 
 
 // Switch
 
 // 6. Write a program that takes the number of the month(1 - 12) and alert number of days in the month.
-
+let monthName= prompt('Enter month name');
+switch(monthName){
+  case "january":
+    alert("no of days = 31");
+    break;
+     case "feb":
+    alert("no of days = 28");
+    break;
+     case "march":
+    alert("no of days = 31");
+    break;
+     case "April":
+    alert("no of days = 30");
+    break;
+     case "May":
+    alert("no od days = 31");
+    break;
+    
+     case "june":
+    alert("no od days = 30");
+    break;
+    
+     case "july":
+    alert("no od days = 31");
+    break;
+    
+    case "August":
+    alert("no od days = 31");
+    break;
+  default:
+    alert('Not a valid input');
+}
 /* 7.
 - Write a program that take the salery of the user using prompt and alert the in -hand amount.You will find out the in -hand amount by deducting the tax amoun from salery.Conditions are given below.
   - `Salary <= 20000` tax is 10 %
   - `Salary <= 40000` tax is 20 %
   - `Salary > 50000` tax is 30 %
-
 */
-
+let amount= prompt('enter salary');
+switch(true){
+  case salary <=20000:
+    let tax=(salary*10)/100;
+    alert('your inhand salary will be ${salery-tax}');
+    break;
+    defualt;
+    alert('not a valid input');
+}
 //  if..else vs switch
 
 /* 8.
